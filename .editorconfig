@@ -1,0 +1,118 @@
+# =========================================================
+# .editorconfig File
+# =========================================================
+# Project Name: C/C++ Template Repository # TODO
+# Repository: https://github.com/jekwwer/c-cpp-cmake-template # TODO
+# Author: Evgenii Shiliaev
+# Description: The settings below are designed to enforce the coding standards
+# outlined in our project documentation, ensuring consistency across the codebase.
+# =========================================================
+
+# =========================================================
+# Top-most EditorConfig file
+# =========================================================
+root = true
+
+# =========================================================
+# Unix-style newlines with a newline ending every file
+# =========================================================
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# =========================================================
+# Python files
+# =========================================================
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+trim_trailing_whitespace = true
+
+# C/C++ files
+# .clang-format
+
+# Header files
+# .clang-format
+
+# =========================================================
+# Markdown files (md)
+# =========================================================
+[*.md]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+# =========================================================
+# Makefile
+# =========================================================
+[Makefile]
+indent_style = tab
+tab_width = 2
+
+# =========================================================
+# CMake files
+# =========================================================
+[CMakeLists.txt]
+indent_style = space
+indent_size = 2
+
+# =========================================================
+# Bash files
+# =========================================================
+[*.sh]
+indent_style = space
+indent_size = 4
+
+# =========================================================
+# Batch files
+# =========================================================
+[*.bat]
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+
+# =========================================================
+# Configuration files
+# =========================================================
+[.editorconfig]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[.gitignore]
+indent_style = space
+indent_size = 2
+
+[.clang-format]
+indent_style = space
+indent_size = 2
+
+[.clang-tidy]
+indent_style = space
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# =========================================================
+# Doxyfile
+# =========================================================
+[Doxyfile]
+indent_style = space
+indent_size = 2
+
+# =========================================================
+# All text-based files
+# =========================================================
+[*.{txt,md,json,xml,html,js,css}]
+indent_style = space
+indent_size = 2
+
+# =========================================================
+# End of .editorconfig
+# =========================================================
